@@ -29,6 +29,7 @@ a{
         height: fit-content;
         padding: 5px;
         margin: 25px;
+        font-size: 15px;
         }
     .menu{
        display: flex;
@@ -61,7 +62,7 @@ a{
             color: var(--p3);
             margin: 10px;
             i{
-                transform: rotate(90deg);
+                transform: rotate(270deg);
                 padding: 10px;
                 font-size: 25px;
             }
@@ -79,6 +80,7 @@ a{
     .text{
         padding: 20px;
         margin-left: 70px;
+        text-align: center;
         h2{
             color: var(--p4);
             font-size: 50px;
@@ -86,16 +88,6 @@ a{
         p{
             color: var(--p2);
             font-size: 30PX;
-        }
-        .button{
-            width: 150px;
-            background-color: var(--p1);
-            border: solid 1px var(--p2);
-            text-align: center;
-            padding: 10px;
-            color: var(--p4);
-            font-size: 20px;
-            margin: 5px;
         }
     }
 }
