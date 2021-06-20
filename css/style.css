@@ -56,7 +56,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin: 5px;
-  display: none;
 }
 
 .navbar .menu .menu-item {
@@ -108,12 +107,6 @@ a {
   transition: .5s;
 }
 
-@media only screen and (max-width: 600px) {
-  .banner .sidebar .log i {
-    font-size: 15px;
-  }
-}
-
 .banner .text {
   padding: 20px;
   margin-left: 70px;
@@ -138,5 +131,14 @@ a {
   color: var(--p4);
   font-size: 20px;
   margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  i {
+    font-size: 15px;
+  }
+  .menu {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

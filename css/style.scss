@@ -38,7 +38,6 @@ a{
            padding: 5px;
            margin-right: 5px;
        }
-       display: none;
     }
 }
 .banner{
@@ -65,11 +64,6 @@ a{
                 transform: rotate(0deg);
                 transition: .5s;
             }
-            @media only screen and (max-width: 600px) {
-                i{
-                    font-size: 15px;
-                }
-            }
         }
     }
     .text{
@@ -93,5 +87,15 @@ a{
             font-size: 20px;
             margin: 5px;
         }
+    }
+}
+
+//phone view
+@media only screen and (max-width: 600px) {
+    i{
+        font-size: 15px;
+    }
+    .menu{
+        display: none;
     }
 }
