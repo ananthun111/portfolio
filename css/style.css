@@ -123,4 +123,15 @@
   color: var(--p2);
   font-size: 30PX;
 }
+
+.banner .text .button {
+  width: 150px;
+  background-color: var(--p1);
+  border: solid 1px var(--p2);
+  text-align: center;
+  padding: 10px;
+  color: var(--p4);
+  font-size: 20px;
+  margin: 5px;
+}
 /*# sourceMappingURL=style.css.map */
