@@ -103,6 +103,12 @@
   transition: .5s;
 }
 
+@media only screen and (max-width: 600px) {
+  .banner .sidebar .log i {
+    font-size: 15px;
+  }
+}
+
 .banner .text {
   padding: 20px;
   margin-left: 70px;
