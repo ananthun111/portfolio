@@ -168,4 +168,8 @@ a {
   padding: 50px;
   background-color: var(--p1);
 }
+
+body {
+  background-color: var(--p1);
+}
 /*# sourceMappingURL=style.css.map */
