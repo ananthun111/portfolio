@@ -135,4 +135,36 @@ a {
   color: var(--p2);
   font-size: 25PX;
 }
+
+.aboutus {
+  background-color: var(--p1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.aboutus .condainer {
+  padding: 50px;
+  color: white;
+}
+
+.aboutus .condainer h2 {
+  color: white;
+  padding: 10px 0px;
+}
+
+.aboutus .condainer p {
+  padding: 10px 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutus .condainer {
+    padding: 80px;
+  }
+}
+
+.contact {
+  padding: 50px;
+}
 /*# sourceMappingURL=style.css.map */
